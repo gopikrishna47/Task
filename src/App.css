@@ -1,0 +1,52 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav-bar {
+  height: 70px;
+  width: 100%;
+  color: white;
+  background-color: lightblue;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.back-btn {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.app_title {
+  margin-right: 88%;
+  margin-top: 22px;
+}
+
+.save-btn {
+  background: rgba(235, 229, 229, 0.3);
+  /* Glassy effect */
+  border: white;
+  color: rgb(109, 105, 105);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 5%;
+  margin-right: 50%;
+}
+
+.save-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+
+.save-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
